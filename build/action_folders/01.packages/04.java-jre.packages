@@ -2,6 +2,7 @@
 
 # install jdk
 if [ "${CBF['os_id']}" = 'alpine' ]; then
+    package.checkIfInstalled openjdk8-jre
     apk add --no-cache openjdk8-jre="$JAVA_ALPINE_VERSION"
 fi
 
