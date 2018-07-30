@@ -1,0 +1,7 @@
+#!/bin/bash
+
+declare -a env_jre=(
+    "JAVA_ALPINE_VERSION=${JAVA_ALPINE_VERSION:-8.171.11-r0}"
+)
+
+crf.updateRuntimeEnvironment "${env_jre[@]}" 
