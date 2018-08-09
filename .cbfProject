@@ -1,3 +1,3 @@
 [project]
-container_name=openjre8_container
-friendly_name=openjre8
+container_name=openjre_container
+friendly_name=openjre

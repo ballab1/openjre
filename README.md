@@ -1,1 +1,1 @@
-# openjre8
+# openjre
