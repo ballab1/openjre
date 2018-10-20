@@ -1,3 +1,3 @@
 # java Packages
 
-declare -a PKGS=( openjdk8-jre=$JAVA_ALPINE_VERSION )
+declare -a PKGS=( openjdk8-jre=$JAVA_EXTENDED )
