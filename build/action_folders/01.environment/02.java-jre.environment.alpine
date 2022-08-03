@@ -4,7 +4,7 @@ declare -a env_jre=(
     "JAVA_EXTENDED=${JAVA_EXTENDED:?}"
     "JAVA_PACKAGE=${JAVA_PACKAGE:?}"
     "JAVA_VERSION=${JAVA_VERSION:?}"
-    'JAVA_HOME="${JAVA_HOME:-/usr/lib/jvm/java-17-openjdk}"'
+    'JAVA_HOME="${JAVA_HOME:-/usr/lib/jvm/java-11-openjdk}"'
     'PATH="${PATH}:${JAVA_HOME}/bin"'
 )
 
